@@ -138,17 +138,33 @@ header.hero {
   position: fixed; top: 0; left: 0; width: 100%; height: 100%;
   pointer-events: none; z-index: 0;
 }
+.hearts {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;      /* clicks pass through */
+  overflow: hidden;
+  z-index: -1;               /* sit behind ALL content */
+}
 .heart {
   position: absolute;
   color: var(--accent);
   font-size: 20px;
-  animation: floatUp 10s linear infinite;
   opacity: 0.6;
+  animation: floatUp 10s linear infinite;
 }
 @keyframes floatUp {
-  0% { transform: translateY(100vh) scale(0.8); opacity: 0; }
+  0% {
+    transform: translateY(100vh) scale(0.8);
+    opacity: 0;
+  }
   30% { opacity: 1; }
-  100% { transform: translateY(-10vh) scale(1.2); opacity: 0; }
+  100% {
+    transform: translateY(-10vh) scale(1.2);
+    opacity: 0;
+  }
 }
 
 /* Footer */
