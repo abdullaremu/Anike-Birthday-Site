@@ -8,7 +8,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: var(--cream);
   color: var(--charcoal);
   line-height: 1.6;
@@ -29,7 +29,7 @@ body {
   animation: fadeIn 1s ease forwards;
 }
 .intro h1 {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 3.8rem;
   margin-bottom: 0.5rem;
 }
@@ -62,7 +62,7 @@ header.hero {
   position: relative;
 }
 .hero .name {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Dancing Script'', cursive;
   font-size: 3.5rem;
 }
 
@@ -116,7 +116,7 @@ header.hero {
   transform: translateY(0);
 }
 
-.ending { font-family: 'Great Vibes', cursive; font-size: 2rem; }
+.ending { font-family: 'Dancing Script'', cursive; font-size: 2rem; }
 
 /* Floating hearts */
 .hearts {
